@@ -1,0 +1,18 @@
+		*{
+ margin : 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+
+p{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+img{margin-top: 250px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    height: 350px;
+}
