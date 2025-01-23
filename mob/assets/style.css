@@ -1,18 +1,23 @@
-		*{
+*{
  margin : 0;
  padding: 0;
  box-sizing: border-box;
 }
 
-p{
+
+.img{
     position: absolute;
+    top: 50%;
     left: 50%;
-    transform: translate(-50%);
+    transform: translate(-50%, -50%);
 }
 
-img{margin-top: 250px;
-    position: absolute;
-    left: 50%;
-    transform: translate(-50%);
+img{
     height: 350px;
 }
+
+p{
+    text-align: center;
+}
+
+@media screen and (max-width: 704px)
